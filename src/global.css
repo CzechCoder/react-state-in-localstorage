@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply p-4;
+}
+
+button {
+	@apply rounded-md bg-gradient-to-r from-primary-500 to-primary-700 px-6 py-2 font-semibold text-white hover:opacity-50;
+}
